@@ -45,7 +45,7 @@ const Checkout = () => {
     const handlePaymentSuccess = async (details) => {
 
         try {
-            const response = await axios.put(`http://localhost:9000/api/checkout/${checkoutId}/pay`,
+            const response = await axios.put(`${import.meta.env.VITE_BACKEND_URL}/api/checkout/${checkoutId}/pay`,
                 { paymentStatus: 'paid', paymentDetals: details },
                 {
                     headers: {

@@ -163,3 +163,9 @@ export default adminProductSlice.reducer
 //   "__v": 0
 // }
 
+// 41c73991-915e1804
+// f85a077c-42db0b40
+// a8a7d3a8-76e98e21
+// def91288-de16b211
+// b5d0130d-38f13d4c
+// bf3968fc-816bbb2a
