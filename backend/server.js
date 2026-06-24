@@ -18,7 +18,7 @@ const adminOrderRoutes = require('./routes/adminOrderRoutes')
 app.use(express.json())
 app.use(
     cors({
-        origin: "https://mernecommerce-gql7.vercel.app",
+        origin: ["https://mernecommerce-gql7.vercel.app", "https://mernecommerce-gql7-n7o5wngk4-carlos-projects-b4082f29.vercel.app"],
         credentials: false,
     })
 );
