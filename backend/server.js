@@ -15,9 +15,14 @@ const productAdminRoutes = require('./routes/productAdminRoutes')
 const adminOrderRoutes = require('./routes/adminOrderRoutes')
 
 
-
 app.use(express.json())
-app.use(cors())
+app.use(
+    cors({
+        origin: "https://mernecommerce-gql7.vercel.app/",
+        credentials: false,
+    })
+);
+
 dotenv.config()
 const PORT = process.env.PORT || 3000
 
